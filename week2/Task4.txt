@@ -1,0 +1,14 @@
+1. og:image (Open Graph Protocol)
+<meta property="og:image" content="https://example.com/thumbnail.png">
+This tells social media platforms (like WhatsApp, Twitter, or Discord) exactly which image to display as a preview when you share the link.
+Without it, platforms might pick a random icon or no image at all, making your link look less professional.
+
+2. viewport-fit=cover (Notch Optimization)
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+This is specifically for modern smartphones with "notches" (like the iPhone's Dynamic Island).
+It tells the browser to use the full area of the screen, ensuring your website's background extends behind the notch rather than leaving awkward white bars on the sides.
+
+3. color-scheme (Native Theme Support)
+<meta name="color-scheme" content="light dark">
+It signals to the browser that your site supports both Light and Dark modes.
+This allows the browser to automatically render "native" elements—like scrollbars and form buttons—in the correct theme immediately, preventing that bright "flash" of white before your custom CSS loads.
